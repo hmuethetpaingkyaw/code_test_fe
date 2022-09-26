@@ -20,6 +20,7 @@ export async function getData(url, params) {
 }
 
 export async function sendData(url, data, type = 'POST') {
+  console.log(apiEndpoint)
   let token = getCache('token')
   if (token) {
     headers.Authorization = `Bearer ${token}`
@@ -27,7 +28,8 @@ export async function sendData(url, data, type = 'POST') {
   axios.defaults.headers = headers
   let response
 
-  if (type === 'POST') response = await axios.post(`${apiEndpoint}/${url}`, data)
+  if (type === 'POST')
+    response = await axios.post(`${apiEndpoint}/${url}`, data)
   else if (type === 'DELETE')
     response = await axios.delete(`${apiEndpoint}/${url}`, data)
   else if (type === 'PUT')
