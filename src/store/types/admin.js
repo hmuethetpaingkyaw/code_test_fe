@@ -1,0 +1,4 @@
+export const SET_ADMIN_INFO = 'SET_ADMIN_INFO'
+export const CLEAR_ADMIN_INFO = 'CLEAR_ADMIN_INFO'
+export const SET_ADMINS = 'SET_ADMINS'
+export const DELETE_ADMIN = 'DELETE_ADMIN'

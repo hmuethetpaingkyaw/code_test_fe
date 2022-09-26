@@ -1,0 +1,21 @@
+.form-control {
+  padding-left: 14px !important;
+}
+
+.custom-tb.input-group-alternative .form-control {
+  height: 35px;
+}
+.custom-tb.input-group-alternative .form-control,
+.custom-tb.input-group-alternative .input-group-text,
+.custom-tb.input-group-alternative {
+  box-shadow: none !important;
+}
+
+.custom-tb.input-group-alternative .input-group-text,
+.custom-tb.input-group-alternative {
+  border: 1px solid #dee0e2;
+}
+
+.custom-textarea {
+  height: 100px;
+}

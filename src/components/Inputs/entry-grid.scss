@@ -1,0 +1,24 @@
+.entry-grid {
+    .card-header {
+        background: #e9e9ef;
+        padding:10px 25px;
+        color:black;
+    }
+
+    .card-body {
+        padding:6px 25px;
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+    }
+}
+
+.no-card-container {
+    padding:4px 2px;
+    h5 {
+        margin-bottom: 12px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}

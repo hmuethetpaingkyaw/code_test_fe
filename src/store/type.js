@@ -1,0 +1,3 @@
+export const SHOW_MEMBERS = 'SHOW_MEMBERS';
+export const CREATE_MEMBERS = 'CREATE_MEMBERS';
+export const SET_TEMP_DATA='SET_TEMP_DATA';

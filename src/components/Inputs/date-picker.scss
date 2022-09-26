@@ -1,0 +1,26 @@
+
+.datepicker-container {
+  display: flex;
+  width:100%;
+ 
+}
+
+.form-control {
+    padding-left: 14px !important;
+  }
+  
+  .custom-tb.input-group-alternative .form-control,
+  .custom-tb.input-group-alternative .input-group-text {
+    border: 1px solid #dee0e2;
+    height:35px;
+    
+    
+  }
+
+  .date-icon {
+    position: relative;
+    right: 29px;
+    top:10px;
+    
+  }
+  
